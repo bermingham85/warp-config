@@ -25,6 +25,8 @@ Quick reference. Each rule does ONE thing.
 | RISK_TIERING | Any change | Match scrutiny to risk |
 | BEFORE_DESTRUCTIVE | Delete/overwrite | Backup first |
 | RETRY_LIMITS | Action fails | Max 3 same, 5 total |
+| ERROR_HANDLING_PROCESS | Error occurs | Stop, assess, log, route, fix |
+| ROLLBACK_REFERENCE | Need to undo | Commands for git/n8n/db |
 | TESTING_REQUIREMENTS | Code written | Tests for prod/money |
 
 ## Organization
@@ -33,10 +35,15 @@ Quick reference. Each rule does ONE thing.
 | DOCUMENT_CONTROL_FILING | Creating files | Correct folder |
 | DEPENDENCY_MANAGEMENT | Installing packages | Verify first |
 | CONSOLIDATION_DECISION | Might duplicate | Check for overlap |
+| CONSOLIDATION_PROCESS | Decided to consolidate | 5-step merge process |
+| CONSULT_CLAUDE_BEFORE_DELETE | About to delete/archive | Get Claude review first |
+| NEVER_DELETE | About to delete | Check dependencies first |
 | MONTHLY_REVIEW | First of month | Flag stale repos |
 
 ## Logging
 | Rule | Trigger | One-Line Summary |
 |------|---------|------------------|
 | MEMORY_LOGGING | Session end | Log to Memory MCP |
+| LOG_SIGNIFICANT_ACTIONS | Major changes | Note what/why/how-to-undo |
+| PR_EVIDENCE_FORMAT | Creating PR | Include evidence sections |
 | SELF_LEARNING | Task complete | Suggest detection/skill |
