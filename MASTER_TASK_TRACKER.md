@@ -86,12 +86,19 @@
 
 ---
 
-## Pending Backtrack
-**These need assessment from conversation history:**
-- Scene Director (mentioned in rules)
-- Any projects from ChatGPT exports
-- Skills that should exist but don't
-- Automations discussed but not built
+## Pending Backtrack - COMPLETED 2026-02-05
+**Backtrack Results:**
+- 415 items scanned from jesse-messy/raw_export
+- ~50 actionable technical tasks identified
+- Most items were story narrative (filtered out)
+
+**Key Actionable Items Found:**
+- [ ] Media Toolkit project (8-phase implementation guide exists)
+- [ ] n8n credential configuration (OpenAI, Anthropic, Slack)
+- [ ] Transaction categorization webhook
+- [ ] Jesse novel platform seed data
+- [ ] Character database population
+- [ ] Prompt library indexing
 
 ---
 

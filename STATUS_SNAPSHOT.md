@@ -1,16 +1,18 @@
 # STATUS SNAPSHOT
-**Last Updated**: 2026-02-05 09:46 UTC
+**Last Updated**: 2026-02-05 10:05 UTC
 
 ## Quick Stats
 - **Active Projects**: 45+ GitHub repos
 - **Warp Rules**: 36
-- **Warp Skills**: 1 (sync-all-repos)
+- **Warp Skills**: 9
 - **n8n Workflows**: Check localhost:5678
 
 ## Priority Queue (Next Actions)
-1. [ ] Run one-time conversation backtrack
-2. [ ] Populate MASTER_TASK_TRACKER from backtrack results
-3. [ ] Review stale repos (>90 days)
+1. [x] Run one-time conversation backtrack - DONE (415 items found, filtered to ~50 actionable)
+2. [ ] Review/implement Media Toolkit project (from jesse-messy prompts)
+3. [ ] Configure n8n credentials (OpenAI, Anthropic, Slack)
+4. [ ] Review stale repos (>90 days)
+5. [ ] Consolidate jesse-* repos (messy, messe, chapter-factory, novel-factory)
 
 ## Recently Completed
 - 2026-02-05: Created 36 modular Warp rules
