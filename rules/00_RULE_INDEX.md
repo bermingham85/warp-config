@@ -5,8 +5,10 @@ Quick reference. Each rule does ONE thing.
 ## Core Workflow
 | Rule | Trigger | One-Line Summary |
 |------|---------|------------------|
+| STARTUP_LOAD_CONTEXT | Session begins | Read STATUS_SNAPSHOT.md |
 | IMPLEMENT_REQUIRED | User asks to build | Build first, don't suggest |
 | HANDLE_INTERRUPTIONS | User sends new message | Queue it, don't stop |
+| UPDATE_TRACKER | Work complete | Update tracker files |
 | SESSION_HANDOFF | Session ending | Orchestrates end sequence |
 | SESSION_END_REPORT | After commits done | Brief summary to user |
 | CLAUDE_HANDOFF_FORMAT | Continuing in Claude | Handoff context format |
