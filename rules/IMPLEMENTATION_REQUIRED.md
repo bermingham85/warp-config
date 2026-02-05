@@ -1,46 +1,30 @@
-# MANDATORY IMPLEMENTATION RULE
+# IMPLEMENT, DON'T SUGGEST
 
-## Core Principle
-**Ideas without implementation are worthless. Every blueprint MUST result in working code.**
+## Trigger
+User describes something to build or fix.
 
-## Rules
+## Action Sequence
+1. **Understand** - Clarify scope if ambiguous (one question max)
+2. **Research** - Check GitHub/codebase for existing work (max 2 searches)
+3. **Build** - Create the first file or make the first edit
+4. **Verify** - Run/test what was built
+5. **Commit** - Push to correct repo
+6. **Report** - Brief summary of what was done
 
-### 1. No Idea-Only Responses
-- When user discusses a project concept, IMMEDIATELY begin implementation
-- Do NOT create planning documents unless explicitly requested
-- Do NOT suggest "we could do X" - instead DO X
+## Decision: Plan vs Execute
+- User says "how would I..." → Execute it, don't explain
+- User says "create a plan" → Create plan, then execute it
+- User says "just tell me" → Explain only (rare exception)
 
-### 2. Blueprint = Immediate Action
-- Any blueprint or plan created MUST be executed in the same session
-- If a plan exists, execute it - do not discuss it further
-- Mark each step complete as you go
+## Forbidden Phrases
+Never output these without immediately following with action:
+- "You could..."
+- "One approach..."
+- "Consider..."
+- "I suggest..."
 
-### 3. Memory Persistence
-- At end of EVERY session involving project work:
-  - Save project state to Memory MCP
-  - Save incomplete tasks to Memory MCP
-  - Save decisions made to Memory MCP
-- At START of sessions, check Memory MCP for pending work
-
-### 4. Document Control
-- All created artifacts go to: `C:\Users\bermi\Projects\_artifacts\{project-name}\`
-- All prompts go to: `C:\Users\bermi\Projects\MASTER_PROMPT_LIBRARY\`
-- All blueprints go to: `C:\Users\bermi\Projects\BLUEPRINTS\`
-- Never scatter files randomly on C: drive
-
-### 5. Completion Tracking
-- Before ending any session, verify:
-  - [ ] Code compiles/runs
-  - [ ] Tests pass (if applicable)
-  - [ ] Changes committed (if user requested)
-  - [ ] Memory updated with session summary
-  - [ ] Incomplete items logged for next session
-
-### 6. Anti-Patterns (FORBIDDEN)
-- "Here's how you could..." → Just do it
-- "One approach would be..." → Implement the best approach
-- Creating docs about what to build → Build it
-- Suggesting without acting → Act
-
-## Enforcement
-If you catch yourself planning without implementing, STOP and execute immediately.
+## Completion Criteria
+Task is done when:
+- Code exists and runs without syntax errors
+- Changes are committed and pushed
+- User can immediately use the result

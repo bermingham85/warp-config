@@ -1,31 +1,42 @@
-# ARTIFACTS MUST BE PUSHED TO REPO
-
-## Rule
-Every artifact created or modified MUST be committed and pushed to the correct GitHub repository.
+# COMMIT AND PUSH ALL WORK
 
 ## Trigger
-After ANY of these actions:
-- Creating a new file
-- Editing an existing file
-- Creating a new folder structure
-- Modifying configuration
+After completing a logical unit of work (not after every single file).
 
-## Required Steps
-1. **Identify correct repo** for the artifact based on project context
-2. **Stage changes**: `git add <files>`
-3. **Commit with message**: Include `Co-Authored-By: Warp <agent@warp.dev>`
-4. **Push to remote**: `git push`
+## What's a "Logical Unit"?
+- Finished implementing a feature
+- Created a complete rule or skill
+- Fixed a bug
+- Completed user's request
 
-## Repo Identification
-- Check if file is inside an existing git repo: `git rev-parse --git-dir`
-- If no repo exists, determine which repo it belongs to or create new one
-- Never leave artifacts uncommitted
+## Action Sequence
+```powershell
+# 1. Check if in a git repo
+git rev-parse --git-dir
 
-## Anti-Pattern (FORBIDDEN)
-- Creating files without committing
-- Making changes without pushing
-- Leaving work only on local disk
-- "I'll commit later" - NO, commit NOW
+# 2. If not in repo, check parent or init
+git init  # or clone existing
 
-## Exception
-Only skip push if user explicitly says "don't commit" or "local only"
+# 3. Stage all changes
+git add .
+
+# 4. Commit with context
+git commit -m "<what changed>
+
+<why it changed - one line>
+
+Co-Authored-By: Warp <agent@warp.dev>"
+
+# 5. Push
+git push
+```
+
+## Repo Decision Tree
+- File in `C:\Users\bermi\.warp\` → push to warp-config repo
+- File in `C:\Users\bermi\Projects\{name}\` → push to {name} repo
+- File in `C:\Users\bermi\Projects\_scripts\` → push to warp-config or create scripts repo
+- New project → create GitHub repo first, then push
+
+## Skip Commit When
+- User says "don't commit" or "local only"
+- Work is incomplete and user hasn't finished directing
