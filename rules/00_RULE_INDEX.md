@@ -1,47 +1,42 @@
 # RULE INDEX
 
-Quick reference. Load full rule only when needed.
+Quick reference. Each rule does ONE thing.
 
-## Action Rules
+## Core Workflow
 | Rule | Trigger | One-Line Summary |
 |------|---------|------------------|
 | IMPLEMENT_REQUIRED | User asks to build | Build first, don't suggest |
-| ARTIFACTS_PUSHED | Work complete | Commit and push to correct repo |
+| HANDLE_INTERRUPTIONS | User sends new message | Queue it, don't stop current task |
 | SKILL_EXTRACTION | Task >3 tool calls | Assess for reusable skill |
-| SESSION_HANDOFF | Session ending | Save to Memory, commit, report |
+| SESSION_HANDOFF | Session ending | Commit, log, report |
 
-## Safety Rules
+## Version Control
 | Rule | Trigger | One-Line Summary |
 |------|---------|------------------|
-| CREDENTIAL_HANDLING | Secrets involved | Never echo, use env vars |
-| RISK_TIERING | Any change | Match scrutiny to risk level |
-| ERROR_RECOVERY | Failure occurs | Stop, assess, log, fix or rollback |
-| TESTING_REQUIREMENTS | Code written | Tests required for prod/money/auth |
+| ARTIFACTS_PUSHED | Work complete | Commit and push |
+| COMMIT_FORMAT | Any commit | Proper message format |
+| GITHUB_SOURCE_OF_TRUTH | Checking project | Check GitHub first |
+| SYNC_LOCAL_WITH_GITHUB | Starting work | Pull before changes |
 
-## Organization Rules
+## Safety
 | Rule | Trigger | One-Line Summary |
 |------|---------|------------------|
-| GITHUB_SOURCE_OF_TRUTH | Checking project state | Always check GitHub before claiming empty |
-| SYNC_LOCAL_WITH_GITHUB | Starting work | Pull before creating files |
-| DOCUMENT_CONTROL_FILING | Creating files | Use correct folder per type |
-| DEPENDENCY_MANAGEMENT | Installing packages | Verify before install, pin versions |
+| CREDENTIAL_HANDLING | Secrets involved | Never echo |
+| RISK_TIERING | Any change | Match scrutiny to risk |
+| BEFORE_DESTRUCTIVE | Delete/overwrite | Backup first |
+| RETRY_LIMITS | Action fails | Max 3 same, 5 total |
+| TESTING_REQUIREMENTS | Code written | Tests for prod/money |
 
-## Audit Rules
+## Organization
 | Rule | Trigger | One-Line Summary |
 |------|---------|------------------|
-| AUDIT_TRAIL | Any significant action | Log to commit and Memory |
+| DOCUMENT_CONTROL_FILING | Creating files | Correct folder |
+| DEPENDENCY_MANAGEMENT | Installing packages | Verify first |
+| CONSOLIDATION_DECISION | Might duplicate | Check for overlap |
+| MONTHLY_REVIEW | First of month | Flag stale repos |
 
-## Improvement Rules
+## Logging
 | Rule | Trigger | One-Line Summary |
 |------|---------|------------------|
-| SELF_LEARNING | After fixing/completing anything | Auto-suggest detection rules or skills |
-| PROJECT_CONSOLIDATION | New system replaces old | Merge repos, delete superseded docs |
-
-## Load Order
-For new sessions, load in this order if context allows:
-1. 00_RULE_INDEX (this file)
-2. IMPLEMENT_REQUIRED
-3. GITHUB_SOURCE_OF_TRUTH
-4. SESSION_HANDOFF
-
-Other rules: load on-demand when relevant trigger occurs.
+| MEMORY_LOGGING | Session end | Log to Memory MCP |
+| SELF_LEARNING | Task complete | Suggest detection/skill |
