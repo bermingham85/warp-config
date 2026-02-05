@@ -6,9 +6,10 @@ Quick reference. Each rule does ONE thing.
 | Rule | Trigger | One-Line Summary |
 |------|---------|------------------|
 | IMPLEMENT_REQUIRED | User asks to build | Build first, don't suggest |
-| HANDLE_INTERRUPTIONS | User sends new message | Queue it, don't stop current task |
-| SKILL_EXTRACTION | Task >3 tool calls | Assess for reusable skill |
-| SESSION_HANDOFF | Session ending | Commit, log, report |
+| HANDLE_INTERRUPTIONS | User sends new message | Queue it, don't stop |
+| SESSION_HANDOFF | Session ending | Orchestrates end sequence |
+| SESSION_END_REPORT | After commits done | Brief summary to user |
+| CLAUDE_HANDOFF_FORMAT | Continuing in Claude | Handoff context format |
 
 ## Version Control
 | Rule | Trigger | One-Line Summary |
@@ -44,6 +45,14 @@ Quick reference. Each rule does ONE thing.
 | Rule | Trigger | One-Line Summary |
 |------|---------|------------------|
 | MEMORY_LOGGING | Session end | Log to Memory MCP |
-| LOG_SIGNIFICANT_ACTIONS | Major changes | Note what/why/how-to-undo |
-| PR_EVIDENCE_FORMAT | Creating PR | Include evidence sections |
-| SELF_LEARNING | Task complete | Suggest detection/skill |
+| LOG_SIGNIFICANT_ACTIONS | Major changes | Note what/why/undo |
+| PR_EVIDENCE_FORMAT | Creating PR | Evidence sections |
+
+## Self-Learning (Assessment → Template)
+| Rule | Trigger | One-Line Summary |
+|------|---------|------------------|
+| SELF_LEARNING | Task complete | Which template to use? |
+| SKILL_ASSESSMENT | Task >3 calls | Should create skill? |
+| DETECTION_RULE_TEMPLATE | Problem fixed | Template for detect rules |
+| SKILL_CREATION_TEMPLATE | Skill needed | Template for skills |
+| INDEX_ENTRY_CREATION | Hard to find | Template for Memory index |
