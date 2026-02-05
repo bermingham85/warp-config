@@ -31,6 +31,12 @@ Quick reference. Load full rule only when needed.
 |------|---------|------------------|
 | AUDIT_TRAIL | Any significant action | Log to commit and Memory |
 
+## Improvement Rules
+| Rule | Trigger | One-Line Summary |
+|------|---------|------------------|
+| SELF_LEARNING | After fixing/completing anything | Auto-suggest detection rules or skills |
+| PROJECT_CONSOLIDATION | New system replaces old | Merge repos, delete superseded docs |
+
 ## Load Order
 For new sessions, load in this order if context allows:
 1. 00_RULE_INDEX (this file)
