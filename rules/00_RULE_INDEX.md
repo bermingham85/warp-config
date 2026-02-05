@@ -24,6 +24,7 @@ Quick reference. Each rule does ONE thing.
 ## Safety
 | Rule | Trigger | One-Line Summary |
 |------|---------|------------------|
+| CHECK_BEFORE_CLAIMING_INABILITY | About to say "I cannot" | Search existing resources first |
 | CREDENTIAL_HANDLING | Secrets involved | Never echo |
 | RISK_TIERING | Any change | Match scrutiny to risk |
 | BEFORE_DESTRUCTIVE | Delete/overwrite | Backup first |

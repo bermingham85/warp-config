@@ -4,9 +4,19 @@
 Beginning of any new conversation/session.
 
 ## Action
-Read these files (lightweight, not full scan):
+### 1. Read Status (lightweight)
 ```
 C:\Users\bermi\.warp\STATUS_SNAPSHOT.md
+```
+
+### 2. Verify Services Running
+```powershell
+# Memory Service (port 8765)
+Test-NetConnection -ComputerName localhost -Port 8765 -WarningAction SilentlyContinue
+# If not running: Start-Process python -ArgumentList "-m","uvicorn","app.main:app","--port","8765" -WorkingDirectory "C:\Users\bermi\Projects\ai-governance\memory-service" -WindowStyle Hidden
+
+# n8n (port 5678)
+Invoke-RestMethod -Uri "http://localhost:5678/healthz" -TimeoutSec 5
 ```
 
 ## What This Provides
