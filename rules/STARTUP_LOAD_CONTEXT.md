@@ -29,6 +29,14 @@ $daysSince = (Get-Date) - [DateTime]::Parse($lastUpdate.timestamp) | Select-Obje
 if ($daysSince -gt 7) { Write-Warning "INDEXES STALE ($daysSince days). Run: python C:\Users\bermi\Projects\_scripts\index_updater.py" }
 ```
 
+### 4b. Check Review Flag
+```powershell
+# Check if rule suggestions need review
+if (Test-Path "C:\Users\bermi\.warp\REVIEW_NEEDED.flag") {
+    Write-Warning "REVIEW NEEDED: Pending rule suggestions. Run: python C:\Users\bermi\Projects\_scripts\rule_suggester.py export"
+}
+```
+
 ### 5. Verify Services Running
 ```powershell
 # Memory Service (port 8765)

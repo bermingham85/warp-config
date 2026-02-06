@@ -1,0 +1,60 @@
+{
+  "archived": [
+    {
+      "id": 1,
+      "name": "TEST_RULE_SUGGESTION",
+      "content": "This is a test suggestion to verify the rule suggestion pipeline works. Should be rejected during review.",
+      "source": "pipeline_test",
+      "confidence": 0.5,
+      "status": "rejected",
+      "created_at": "2026-02-06T18:09:18.247285",
+      "reviewed_at": "2026-02-06T18:39:06.902190",
+      "review_notes": "Test suggestion - not a real rule"
+    },
+    {
+      "id": 2,
+      "name": "ROUTE_DESIGN_TO_CLAUDE",
+      "content": "Before executing complex tasks, classify: If task requires THINKING about WHAT to do (architecture, planning, review), route to Claude via Sequential Thinking MCP. If task requires DOING something known (file ops, git, scripts), execute directly in Warp. Use TASK_ROUTER.md criteria.",
+      "source": "session_2026-02-06",
+      "confidence": 0.9,
+      "status": "rejected",
+      "created_at": "2026-02-06T18:38:34.359801",
+      "reviewed_at": "2026-02-06T18:39:45.696393",
+      "review_notes": "Duplicates existing rules (TASK_ROUTER.md and SERVICES_BEFORE_TOKENS)"
+    },
+    {
+      "id": 3,
+      "name": "USE_SCRIPTS_BEFORE_TOKENS",
+      "content": "For repeatable operations (index updates, health checks, batch processing), use existing scripts or create new ones rather than burning LLM tokens. Scripts: index_updater.py, prompt_harvester.py, rule_suggester.py. Scheduled tasks and n8n workflows are preferred over manual LLM execution.",
+      "source": "session_2026-02-06",
+      "confidence": 0.85,
+      "status": "rejected",
+      "created_at": "2026-02-06T18:38:42.881441",
+      "reviewed_at": "2026-02-06T18:39:45.696393",
+      "review_notes": "Duplicates existing rules (TASK_ROUTER.md and SERVICES_BEFORE_TOKENS)"
+    },
+    {
+      "id": 4,
+      "name": "CAPTURE_SESSION_LEARNINGS",
+      "content": "At session end, identify reusable patterns discovered and add them via rule_suggester.py. Look for: repeated workflows, error resolutions, architectural decisions, process optimizations. This ensures the system continuously learns from each session.",
+      "source": "session_2026-02-06",
+      "confidence": 0.8,
+      "status": "approved",
+      "created_at": "2026-02-06T18:38:50.731738",
+      "reviewed_at": "2026-02-06T18:39:51.911672",
+      "review_notes": "Approved by Claude - key rule for self-improving system"
+    },
+    {
+      "id": 5,
+      "name": "CHECK_REVIEW_FLAG_AT_STARTUP",
+      "content": "At session start, check for .warp/REVIEW_NEEDED.flag file. If present, notify user that pending rule suggestions need Claude review. Run: python rule_suggester.py export, then review with Claude.",
+      "source": "session_2026-02-06",
+      "confidence": 0.75,
+      "status": "rejected",
+      "created_at": "2026-02-06T18:38:58.951406",
+      "reviewed_at": "2026-02-06T18:40:10.843654",
+      "review_notes": "Implemented by adding to STARTUP_LOAD_CONTEXT.md instead of separate rule"
+    }
+  ],
+  "last_archived": "2026-02-06T18:40:17.790693"
+}
