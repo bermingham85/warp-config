@@ -1,5 +1,5 @@
 # MASTER TASK TRACKER
-**Last Updated**: 2026-02-05
+**Last Updated**: 2026-02-06
 
 ## Status Legend
 - `IDEA` - Discussed but not started
@@ -27,9 +27,9 @@
 | Project | Status | GitHub | Last Updated | Notes |
 |---------|--------|--------|--------------|-------|
 | jesse-messy | PUSHED | [✓](https://github.com/bermingham85/jesse-messy) | 2026-02-05 | 2,342 files, main working repo |
-| jesse-messe | ? | Check | ? | Possibly duplicate |
-| jesse-chapter-factory | ? | Check | ? | Related to jesse |
-| jesse-novel-factory | ? | Check | ? | Related to jesse |
+| jesse-messe | PUSHED | [✓](https://github.com/bermingham85/jesse-messe) | 2026-01-11 | 243 files, duplicate system |
+| jesse-chapter-factory | PUSHED | [✓](https://github.com/bermingham85/jesse-chapter-factory) | 2026-01-31 | Cloudflare Worker API |
+| jesse-novel-factory | PUSHED | [✓](https://github.com/bermingham85/jesse-novel-factory) | 2026-01-01 | AI novel-to-audiobook pipeline |
 
 ---
 
@@ -37,10 +37,10 @@
 
 | Project | Status | GitHub | Last Updated | Notes |
 |---------|--------|--------|--------------|-------|
-| n8n-qnap-updater | ? | Check | ? | |
-| hourly-autopilot-system | ? | Check | ? | |
-| midjourney-news-automation | ? | Check | ? | |
-| ultimate_mcp_server | ? | Check | ? | Current directory |
+| n8n-qnap-updater | PUSHED | [✓](https://github.com/bermingham85/n8n-qnap-updater) | 2025-12-18 | QNAP deployment |
+| hourly-autopilot-system | PUSHED | [✓](https://github.com/bermingham85/hourly-autopilot-system) | 2025-12-18 | Private repo |
+| midjourney-news-automation | PUSHED | [✓](https://github.com/bermingham85/midjourney-news-automation) | Synced | Automation pipeline |
+| ultimate_mcp_server | EXTERNAL | N/A | N/A | Third-party fork (Dicklesworthstone) |
 
 ---
 
@@ -48,13 +48,13 @@
 
 | Project | Status | GitHub | Last Updated | Notes |
 |---------|--------|--------|--------------|-------|
-| ai-orchestrator | ? | Check | ? | |
-| ai-orchestrator-platform | ? | Check | ? | |
-| auto-agent-creator | ? | Check | ? | |
-| agent-agency-mcp | ? | Check | ? | |
-| chatgpt-mcp-server | ? | Check | ? | |
-| mcp-mcp | ? | Check | ? | |
-| openai-notion-mcp | ? | Check | ? | |
+| ai-orchestrator | ARCHIVED | [✓](https://github.com/bermingham85/ai-orchestrator) | 2026-01-14 | Archived |
+| ai-orchestrator-platform | PUSHED | [✓](https://github.com/bermingham85/ai-orchestrator-platform) | 2025-12-18 | Multi-LLM interface |
+| auto-agent-creator | PUSHED | [✓](https://github.com/bermingham85/auto-agent-creator) | 2025-12-30 | Multi-agent studio |
+| agent-agency-mcp | PUSHED | [✓](https://github.com/bermingham85/agent-agency-mcp) | 2026-01-14 | Private repo |
+| chatgpt-mcp-server | PUSHED | [✓](https://github.com/bermingham85/chatgpt-mcp-server) | 2026-01-23 | MCP for ChatGPT |
+| mcp-mcp | EXTERNAL | N/A | N/A | Third-party fork (wojtyniak) |
+| openai-notion-mcp | PUSHED | [✓](https://github.com/bermingham85/openai-notion-mcp) | 2025-12-18 | Private repo |
 
 ---
 
@@ -62,10 +62,10 @@
 
 | Project | Status | GitHub | Last Updated | Notes |
 |---------|--------|--------|--------------|-------|
-| media-toolkit | ? | Check | ? | Contains NETWORK_MAP |
-| ComfyUI | ? | Check | ? | Multiple locations |
-| kohya_ss | ? | Check | ? | AI training |
-| galinda-assets | ? | Check | ? | |
+| media-toolkit | PUSHED | [✓](https://github.com/bermingham85/media-toolkit) | 2026-02-06 | MCP + ElevenLabs + FAL.ai |
+| ComfyUI | EXTERNAL | N/A | N/A | Third-party (multiple locations) |
+| kohya_ss | EXTERNAL | N/A | N/A | Third-party AI training |
+| galinda-assets | PUSHED | [✓](https://github.com/bermingham85/galinda-assets) | 2026-01-30 | FAL animation assets |
 
 ---
 
@@ -73,16 +73,16 @@
 
 | Project | Status | GitHub | Last Updated | Notes |
 |---------|--------|--------|--------------|-------|
-| bermech-email-tagger | ? | Check | ? | |
-| bermech-wordpress-theme | ? | Check | ? | |
-| brand-launchpad-service | ? | Check | ? | |
-| docker-n8n-review | ? | Check | ? | |
-| gremlos-world-puppet | ? | Check | ? | |
-| neta-lumina | ? | Check | ? | |
-| step-chain-runner | ? | Check | ? | |
-| youtube-requirements-project | ? | Check | ? | |
-| dap_mcp | ? | Check | ? | |
-| orchestrator | ? | Check | ? | |
+| bermech-email-tagger | PUSHED | [✓](https://github.com/bermingham85/bermech-email-tagger) | 2025-12-23 | AI email classification |
+| bermech-wordpress-theme | PUSHED | [✓](https://github.com/bermingham85/bermech-wordpress-theme) | 2025-12-18 | Private repo |
+| brand-launchpad-service | PUSHED | [✓](https://github.com/bermingham85/brand-launchpad-service) | 2025-12-18 | Private repo |
+| docker-n8n-review | LOCAL | Check | ? | No GitHub repo found |
+| gremlos-world-puppet | PUSHED | [✓](https://github.com/bermingham85/gremlos-world-puppet) | 2025-12-18 | Private, 14 AI agents |
+| neta-lumina | PUSHED | [✓](https://github.com/bermingham85/neta-lumina) | 2025-12-18 | Private repo |
+| step-chain-runner | PUSHED | [✓](https://github.com/bermingham85/step-chain-runner) | 2026-01-26 | Has 1 open issue |
+| youtube-requirements-project | PUSHED | [✓](https://github.com/bermingham85/youtube-requirements-project) | 2025-12-02 | Private repo |
+| dap_mcp | LOCAL | Check | ? | No GitHub repo found |
+| orchestrator | PUSHED | [✓](https://github.com/bermingham85/orchestrator) | 2026-01-12 | Has 3 open issues |
 
 ---
 
