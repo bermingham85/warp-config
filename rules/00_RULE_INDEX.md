@@ -53,10 +53,11 @@ Quick reference. Each rule does ONE thing.
 | PR_EVIDENCE_FORMAT | Creating PR | Evidence sections |
 
 ## Self-Learning (Assessment → Template)
-| Rule | Trigger | One-Line Summary |
-|------|---------|------------------|
-| SELF_LEARNING | Task complete | Which template to use? |
-| SKILL_ASSESSMENT | Task >3 calls | Should create skill? |
-| DETECTION_RULE_TEMPLATE | Problem fixed | Template for detect rules |
-| SKILL_CREATION_TEMPLATE | Skill needed | Template for skills |
-| INDEX_ENTRY_CREATION | Hard to find | Template for Memory index |
+|| Rule | Trigger | One-Line Summary |
+||------|---------|------------------|
+|| SELF_LEARNING | Task complete | Which template to use? |
+|| SKILL_ASSESSMENT | Task >3 calls | Should create skill? |
+|| DETECTION_RULE_TEMPLATE | Problem fixed | Template for detect rules |
+|| SKILL_CREATION_TEMPLATE | Skill needed | Template for skills |
+|| INDEX_ENTRY_CREATION | Hard to find | Template for Memory index |
+|| RULE_QUALITY_GATE | New rule created | Reformat, split if multi-action, check conflicts |
