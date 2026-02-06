@@ -9,6 +9,12 @@
 | Enforcement Status | `ai-governance\ENFORCEMENT_STATUS.md` | What's active |
 | Error Log | `ai-governance\ERROR_LOG.md` | Error history |
 
+## Handover Templates
+
+| Template | Path | Purpose |
+|----------|------|---------|
+| Automation Build | `ai-governance\prompts\WARP_AUTOMATION_BUILD.md` | Script + rule + git builds |
+
 ## Warp Configuration
 
 | Document | Path | Purpose |

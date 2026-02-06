@@ -1,13 +1,13 @@
 # PROJECT INDEX
 
-**Auto-updated: 2026-02-06 17:17**
+**Auto-updated: 2026-02-06 17:35**
 **All projects at `C:\Users\bermi\Projects`**
 
 ## Infrastructure & Config
 | Project | Purpose | Status |
 |---------|---------|--------|
 | SYSTEM_DOCS | Check | Active |
-| _scripts | Check | Check |
+| _scripts | Check | Active |
 | ai-governance | AI Governance Framework | Active |
 
 ## AI & Orchestration
