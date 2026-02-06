@@ -4,12 +4,18 @@
 Beginning of any new conversation/session.
 
 ## Action
-### 1. Read Status (lightweight)
+### 1. Read Rule Proxy (NOT all rules)
+```
+C:\Users\bermi\.warp\rules\00_RULE_PROXY.md
+```
+This tells you HOW to load rules on-demand. Do NOT load all 48 rules.
+
+### 2. Read Status (lightweight)
 ```
 C:\Users\bermi\.warp\STATUS_SNAPSHOT.md
 ```
 
-### 2. Verify Services Running
+### 3. Verify Services Running
 ```powershell
 # Memory Service (port 8765)
 Test-NetConnection -ComputerName localhost -Port 8765 -WarningAction SilentlyContinue
