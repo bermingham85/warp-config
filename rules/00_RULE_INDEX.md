@@ -22,9 +22,10 @@ Quick reference. Each rule does ONE thing.
 | SYNC_LOCAL_WITH_GITHUB | Starting work | Pull before changes |
 
 ## Safety
-| Rule | Trigger | One-Line Summary |
-|------|---------|------------------|
-| CHECK_BEFORE_CLAIMING_INABILITY | About to say "I cannot" | Search existing resources first |
+|| Rule | Trigger | One-Line Summary |
+||------|---------|------------------|
+|| CODE_REVIEW_BEFORE_EXECUTION | Code created/modified | Review as senior dev before running |
+|| CHECK_BEFORE_CLAIMING_INABILITY | About to say "I cannot" | Search existing resources first |
 | CREDENTIAL_HANDLING | Secrets involved | Never echo |
 | RISK_TIERING | Any change | Match scrutiny to risk |
 | BEFORE_DESTRUCTIVE | Delete/overwrite | Backup first |
