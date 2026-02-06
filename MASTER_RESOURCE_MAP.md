@@ -51,6 +51,14 @@
 | Index Updater | `_scripts/index_updater.py` | Auto-update indexes |
 | Backtracker | `_scripts/backtrack_conversations.py` | Find incomplete tasks |
 
+## n8n Workflows
+
+| Workflow | Path | Purpose |
+|----------|------|---------|
+| Daily Orchestrator | `_scripts/n8n_workflows/daily_orchestrator.json` | Closes all automation loops |
+
+**Import:** http://localhost:5678 → Workflows → Import from File
+
 ## Sub-Indexes (Load When Needed)
 
 | Index | Path | Use When |
