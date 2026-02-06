@@ -76,12 +76,12 @@
 | bermech-email-tagger | PUSHED | [✓](https://github.com/bermingham85/bermech-email-tagger) | 2025-12-23 | AI email classification |
 | bermech-wordpress-theme | PUSHED | [✓](https://github.com/bermingham85/bermech-wordpress-theme) | 2025-12-18 | Private repo |
 | brand-launchpad-service | PUSHED | [✓](https://github.com/bermingham85/brand-launchpad-service) | 2025-12-18 | Private repo |
-| docker-n8n-review | LOCAL | Check | ? | No GitHub repo found |
-| gremlos-world-puppet | PUSHED | [✓](https://github.com/bermingham85/gremlos-world-puppet) | 2025-12-18 | Private, 14 AI agents |
+| docker-n8n-review | PUSHED | [✓](https://github.com/bermingham85/docker-n8n-review) | 2026-02-06 | Docker n8n deployment |
+| gremlos-world-puppet | PUSHED |
 | neta-lumina | PUSHED | [✓](https://github.com/bermingham85/neta-lumina) | 2025-12-18 | Private repo |
 | step-chain-runner | PUSHED | [✓](https://github.com/bermingham85/step-chain-runner) | 2026-01-26 | Has 1 open issue |
 | youtube-requirements-project | PUSHED | [✓](https://github.com/bermingham85/youtube-requirements-project) | 2025-12-02 | Private repo |
-| dap_mcp | LOCAL | Check | ? | No GitHub repo found |
+| dap_mcp | EXTERNAL | N/A | N/A | Third-party fork (KashunCheng) |
 | orchestrator | PUSHED | [✓](https://github.com/bermingham85/orchestrator) | 2026-01-12 | Has 3 open issues |
 
 ---
