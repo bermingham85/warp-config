@@ -1,77 +1,60 @@
 # RULE INDEX
 
-Quick reference. Each rule does ONE thing.
+**Auto-updated: 2026-02-06 17:17**
+**Total rules: 50**
 
-## Core Workflow
-| Rule | Trigger | One-Line Summary |
-|------|---------|------------------|
-| STARTUP_LOAD_CONTEXT | Session begins | Read STATUS_SNAPSHOT.md |
-| IMPLEMENT_REQUIRED | User asks to build | Build first, don't suggest |
-| HANDLE_INTERRUPTIONS | User sends new message | Queue it, don't stop |
-| UPDATE_TRACKER | Work complete | Update tracker files |
-| SESSION_HANDOFF | Session ending | Orchestrates end sequence |
-| SESSION_END_REPORT | After commits done | Brief summary to user |
-| CLAUDE_HANDOFF_FORMAT | Continuing in Claude | Handoff context format |
+## All Rules
 
-## Version Control
-| Rule | Trigger | One-Line Summary |
-|------|---------|------------------|
-| ARTIFACTS_PUSHED | Work complete | Commit and push |
-| COMMIT_FORMAT | Any commit | Proper message format |
-| GITHUB_SOURCE_OF_TRUTH | Checking project | Check GitHub first |
-| SYNC_LOCAL_WITH_GITHUB | Starting work | Pull before changes |
+### Startup Rules
+- `STARTUP_LOAD_CONTEXT`
 
-## Safety & Security
-| Rule | Trigger | One-Line Summary |
-|------|---------|------------------|
-| CODE_REVIEW_BEFORE_EXECUTION | Code created/modified | Review as senior dev before running |
-| CHECK_BEFORE_CLAIMING_INABILITY | About to say "I cannot" | Search existing resources first |
-| CREDENTIAL_HANDLING | Secrets involved | Never echo |
-| NEVER_COMMIT_SECRETS | Git commit/push | No API keys/passwords in version control |
-| NEVER_LOG_SECRETS | Any output/log | No secrets to console/logs |
-| NO_AUTONOMOUS_EXECUTION | AI considers action | Must have user trigger first |
-| RISK_TIERING | Any change | Match scrutiny to risk |
-| BEFORE_DESTRUCTIVE | Delete/overwrite | Backup first |
-| RETRY_LIMITS | Action fails | Max 3 same, 5 total |
-| ERROR_HANDLING_PROCESS | Error occurs | Stop, assess, log, route, fix |
-| ROLLBACK_REFERENCE | Need to undo | Commands for git/n8n/db |
-| AUTO_ROLLBACK_SCRIPT | DB/config change | Generate rollback before applying |
+### Governance Rules
+- `AUTO_ROLLBACK_SCRIPT`
+- `NEVER_COMMIT_SECRETS`
+- `NEVER_LOG_SECRETS`
+- `NO_AUTONOMOUS_EXECUTION`
+- `REFERENCE_GOVERNANCE_DOCS`
+- `REQUIRE_INTEGRATION_TESTS`
+- `ROLLBACK_REFERENCE`
+- `RULE_QUALITY_GATE`
+- `SERVICES_BEFORE_TOKENS`
 
-## Organization
-| Rule | Trigger | One-Line Summary |
-|------|---------|------------------|
-| DOCUMENT_CONTROL_FILING | Creating files | Correct folder |
-| DEPENDENCY_MANAGEMENT | Installing packages | Verify first |
-| CONSOLIDATION_DECISION | Might duplicate | Check for overlap |
-| CONSOLIDATION_PROCESS | Decided to consolidate | 5-step merge process |
-| CONSULT_CLAUDE_BEFORE_DELETE | About to delete/archive | Get Claude review first |
-| NEVER_DELETE | About to delete | Check dependencies first |
-| MONTHLY_REVIEW | First of month | Flag stale repos |
-
-## Efficiency
-| Rule | Trigger | One-Line Summary |
-|------|---------|------------------|
-| SERVICES_BEFORE_TOKENS | Any task | Route to tools/services before AI processing |
-
-## Testing
-| Rule | Trigger | One-Line Summary |
-|------|---------|------------------|
-| TESTING_REQUIREMENTS | Code written | Tests for prod/money |
-| REQUIRE_INTEGRATION_TESTS | Multi-system change | Integration test before complete |
-
-## Logging
-| Rule | Trigger | One-Line Summary |
-|------|---------|------------------|
-| MEMORY_LOGGING | Session end | Log to Memory MCP |
-| LOG_SIGNIFICANT_ACTIONS | Major changes | Note what/why/undo |
-| PR_EVIDENCE_FORMAT | Creating PR | Evidence sections |
-
-## Self-Learning (Assessment → Template)
-|| Rule | Trigger | One-Line Summary |
-||------|---------|------------------|
-|| SELF_LEARNING | Task complete | Which template to use? |
-|| SKILL_ASSESSMENT | Task >3 calls | Should create skill? |
-|| DETECTION_RULE_TEMPLATE | Problem fixed | Template for detect rules |
-|| SKILL_CREATION_TEMPLATE | Skill needed | Template for skills |
-|| INDEX_ENTRY_CREATION | Hard to find | Template for Memory index |
-|| RULE_QUALITY_GATE | New rule created | Reformat, split if multi-action, check conflicts |
+### Other Rules
+- `00-MANDATORY-NETWORK-MAP`
+- `ARTIFACTS_MUST_BE_PUSHED`
+- `AUTO_UPDATE_INDEXES`
+- `BEFORE_DESTRUCTIVE`
+- `CHECK_BEFORE_CLAIMING_INABILITY`
+- `CLAUDE_HANDOFF_FORMAT`
+- `CODE_REVIEW_BEFORE_EXECUTION`
+- `COMMIT_FORMAT`
+- `CONSOLIDATION_DECISION`
+- `CONSOLIDATION_PROCESS`
+- `CONSULT_CLAUDE_BEFORE_DELETE`
+- `CREDENTIAL_HANDLING`
+- `DEPENDENCY_MANAGEMENT`
+- `DESKTOP_APP_LAUNCHER_PATTERN`
+- `DETECTION_RULE_TEMPLATE`
+- `DOCUMENT_CONTROL_FILING`
+- `ERROR_HANDLING_PROCESS`
+- `GITHUB_SOURCE_OF_TRUTH`
+- `HANDLE_INTERRUPTIONS`
+- `IMPLEMENTATION_REQUIRED`
+- `INDEX_ENTRY_CREATION`
+- `LOG_SIGNIFICANT_ACTIONS`
+- `MEMORY_LOGGING`
+- `MONTHLY_REVIEW`
+- `NEVER_DELETE`
+- `PR_EVIDENCE_FORMAT`
+- `RETRY_LIMITS`
+- `RISK_TIERING`
+- `SELF_LEARNING`
+- `SESSION_END_REPORT`
+- `SESSION_HANDOFF`
+- `SKILL_ASSESSMENT_ON_COMPLETION`
+- `SKILL_CREATION_TEMPLATE`
+- `SYNC_LOCAL_WITH_GITHUB`
+- `TESTING_REQUIREMENTS`
+- `UPDATE_TRACKER`
+- `mcp-first`
+- `qnap-browser-access`

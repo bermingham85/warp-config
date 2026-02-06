@@ -1,73 +1,118 @@
 # PROJECT INDEX
 
-**All projects at `C:\Users\bermi\Projects\`**
+**Auto-updated: 2026-02-06 17:17**
+**All projects at `C:\Users\bermi\Projects`**
 
 ## Infrastructure & Config
 | Project | Purpose | Status |
 |---------|---------|--------|
-| ai-governance | Global AI rules, governance docs | Active |
-| warp-config (.warp) | Warp rules, skills, config | Active |
-| SYSTEM_DOCS | System documentation | Active |
+| SYSTEM_DOCS | Check | Active |
+| _scripts | Check | Check |
+| ai-governance | AI Governance Framework | Active |
 
 ## AI & Orchestration
 | Project | Purpose | Status |
 |---------|---------|--------|
-| ai-orchestrator | AI orchestration system | Check |
-| ai-orchestrator-platform | Platform version | Check |
-| auto-agent-creator | Agent creation automation | Check |
-| agent-agency-mcp | MCP for agent management | Check |
-| chatgpt-mcp-server | ChatGPT MCP integration | Check |
-| mcp-mcp | Meta MCP server | Check |
-| openai-notion-mcp | OpenAI + Notion MCP | Check |
-| dap_mcp | DAP MCP server | Check |
-| orchestrator | Orchestration scripts | Check |
-| ultimate_mcp_server | Combined MCP server | Check |
+| AGENT_REGISTRY | 🤖 AGENT REGISTRY - Complete Di | Check |
+| agent-agency-mcp | Media Toolkit - Complete Produ | Active |
+| ai-orchestrator | 🎯 AI Orchestrator | Active |
+| ai-orchestrator-platform | Check | Active |
+| animation-agent | Animation Agent | Active |
+| auto-agent-creator | Auto Agent Creator | Active |
+| bookkeeping-agent-system | 🤖 Michael Bermingham Soletrade | Check |
+| chatgpt-conversations | Check | Check |
+| chatgpt-mcp-server | 🚀 COMPLETE AUTOMATION EMPIRE D | Active |
+| dap_mcp | dap-mcp | Active |
+| drive-knowledge-mcp | Drive Knowledge MCP Server | Check |
+| elevenlabs-mcp-server | ElevenLabs MCP Server | Check |
+| fal-ai-mcp | fal.ai Documentation MCP Serve | Check |
+| file-manager-agent | Check | Check |
+| mcp-diagnostics | MCP Diagnostics - Trae IDE 诊断信 | Active |
+| mcp-mcp | MCP-MCP: Meta-MCP Server | Active |
+| mcp-puppet-pipeline | MCP Puppet Pipeline | Active |
+| mcp-workflow | MCP Workflow | Active |
+| migration-agent | Check | Check |
+| n8n-mcp | n8n-MCP | Active |
+| openai-notion-mcp | OpenAI + Notion MCP Integratio | Active |
+| orchestrator | ORCHESTRATOR | Active |
+| orchestrator-backup-20260107-192757 | ORCHESTRATOR | Active |
+| orchestrator-extracted | Check | Check |
+| prompt-engineer-agent | Prompt Engineer Agent | Active |
+| ultimate_mcp_server | 🧠 Ultimate MCP Server | Active |
+| warp-memory-mcp | Warp Memory MCP Server | Check |
 
 ## Jesse Projects
 | Project | Purpose | Status |
 |---------|---------|--------|
-| jesse-messy | Main Jesse repo (2342 files) | Active |
-| CHAT_ANALYZER_MASTER | Chat analysis (4351 files) | Active |
+| CHAT_ANALYZER_MASTER | Chat Analyzer - Zero-Token Con | Active |
+| jesse-messy | Jesse-Messy | Active |
 
 ## Automation & Integration
 | Project | Purpose | Status |
 |---------|---------|--------|
-| n8n-qnap-updater | QNAP n8n updates | Check |
-| hourly-autopilot-system | Scheduled automation | Check |
-| midjourney-news-automation | MJ news automation | Check |
-| bermech-n8n-workflows | n8n workflow collection | Check |
-| step-chain-runner | Step chain execution | Check |
+| AUTOMATION_FRAMEWORK | Check | Check |
+| balding-pig-automation | The Balding Pig Automation | Active |
+| bermech-n8n-workflows | bermech-n8n-workflows | Active |
+| claude-puppet-automation | Claude Puppet Automation | Active |
+| docker-n8n-review | Docker & n8n Setup Review Proj | Active |
+| hourly-autopilot-system | Hourly Autopilot System | Active |
+| midjourney-news-automation | 🤖 Midjourney News Automation S | Active |
+| n8n-local | n8n Local Setup on Windows | Check |
+| n8n-qnap-updater | n8n QNAP Docker Updater | Active |
+| n8n-workflows | ⚡ N8N Workflow Collection & Do | Active |
+| step-chain-runner | Step-Chain Runner | Active |
 
 ## Media & Content
 | Project | Purpose | Status |
 |---------|---------|--------|
-| media-toolkit | Media processing tools | Check |
-| ComfyUI | AI image generation | Active |
-| kohya_ss (C:\AI\kohya_ss) | AI training | Active |
-| galinda-assets | Asset management | Check |
-| animation-agent | Animation automation | Check |
-| gremlos-world-puppet | Puppet animation | Check |
-| mcp-puppet-pipeline | Puppet pipeline | Check |
+| ComfyUI | Check | Active |
+| gremlos-world-puppet | Check | Active |
+| media-toolkit | Media Toolkit - Complete Produ | Active |
 
 ## Business Projects
 | Project | Purpose | Status |
 |---------|---------|--------|
-| bermech-email-tagger | Email classification | Check |
-| bermech-wordpress-theme | WordPress theme | Check |
-| brand-launchpad-service | Brand launch tools | Check |
-| quickbooks-mark2 | QuickBooks integration | Check |
-| lm-cleaning-booking | Booking system | Check |
-| neta-lumina | Neta Lumina project | Check |
-| balding-pig-automation | Automation project | Check |
-| AutoDesign-POD-Empire | POD automation | Check |
+| AutoDesign-POD-Empire | 🚀 AutoDesign POD Empire | Active |
+| bermech-email-tagger | Bermech Email Tagger | Active |
+| bermech-wordpress-theme | bermech-wordpress-theme | Active |
+| brand-launchpad-service | 🚀 30-Day Brand Launchpad Servi | Active |
+| lm-cleaning-booking | L&M Cleaning Services - Bookin | Active |
+| neta-lumina | neta-lumina | Active |
+| quickbooks-mark2 | Here are your Instructions | Active |
 
 ## Libraries & Resources
 | Project | Purpose | Status |
 |---------|---------|--------|
-| MASTER_PROMPT_LIBRARY | Prompt templates | Active |
-| _scripts | Utility scripts | Active |
-| _memory_builder_output | Memory builder results | Active |
-| _incomplete_tasks | Task backlog | Active |
+| MASTER_PROMPT_LIBRARY | Check | Active |
+| _incomplete_tasks | Check | Check |
+| _memory_builder_output | Check | Check |
+
+## Other
+| Project | Purpose | Status |
+|---------|---------|--------|
+| BLUEPRINTS | Check | Active |
+| CODE_ARTIFACTS | CODE ARTIFACTS | Active |
+| Estate-System | Check | Check |
+| PROJECT_KNOWLEDGE_SYSTEM | Check | Check |
+| TASK_OPERATOR | Check | Check |
+| _archive | Check | Check |
+| _artifacts | Check | Check |
+| asset-vault | Asset Vault | Active |
+| autonomous-empire | AUTONOMOUS EMPIRE | Active |
+| autonomous-system | Check | Active |
+| context-api | Check | Check |
+| control-tower | Control Tower - Quick Start Gu | Check |
+| fal-ai-docs-scraper | fal.ai Documentation Scraper | Active |
+| hybrid-extracted | Check | Check |
+| novel-production-factory | Novel Production Factory | Active |
+| novel-writer | Novel Planning & Production Su | Active |
+| protocol-operator | Protocol Operator System | Check |
+| protocol-task-operator | Check | Check |
+| qnap-ai-control | QNAP AI Control API | Check |
+| scene-director | Check | Check |
+| self-improving-systems | Self-Improving AI Systems | Active |
+| youtube-requirements-project | YouTube n8n MCP Workflow Gener | Active |
+| zie619-workflows | ⚡ N8N Workflow Collection & Do | Active |
 
 ## Other Locations
 | Path | Purpose |
