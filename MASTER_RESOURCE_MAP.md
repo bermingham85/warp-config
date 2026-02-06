@@ -15,22 +15,48 @@
 | **Prompt Library** | `C:\Users\bermi\Projects\MASTER_PROMPT_LIBRARY\` |
 | **Scripts** | `C:\Users\bermi\Projects\_scripts\` |
 
-## Services
+## Services & Endpoints
 
-| Service | URL | Port |
-|---------|-----|------|
-| **n8n** | http://localhost:5678 | 5678 |
-| **Memory Service** | http://localhost:8765 | 8765 |
-| **QNAP NAS** | 192.168.50.246 (browser only) | - |
+| Service | URL | Port | Purpose |
+|---------|-----|------|--------|
+| **n8n** | http://localhost:5678 | 5678 | Workflow automation |
+| **Memory Service** | http://localhost:8765 | 8765 | AI memory persistence |
+| **QNAP NAS** | 192.168.50.246 | - | Network storage (browser only) |
+| **PostgreSQL** | 192.168.50.246:5432 | 5432 | conversation_memory DB |
+
+### MCP Servers
+| Server | ID | Purpose |
+|--------|----|---------|
+| Memory | 4b59c321-1e58-47c0-982e-be0196f17e5d | Knowledge graph |
+| GitHub | 68886dfc-0f54-4261-b225-597516f7d12d | Repo management |
+| Playwright | 3b09906c-9b2f-4175-9330-f8ade799ceeb | Browser automation |
+| Notion | 0339f9ad-e774-4cb5-9253-3459ec0da6c2 | Documentation |
+| Sequential Thinking | 1e0ffe4e-01a0-4ff6-afc2-0ce5377c8a6b | Claude reasoning |
+| Context7 | 8e606f75-250f-48a5-9e6f-25344f9bfef2 | Doc fetch |
+
+### n8n Webhooks
+| Webhook | Path | Purpose |
+|---------|------|---------|
+| AI Request | /webhook/ai-request | Route to Claude API |
+| Claude Bridge | /webhook/claude_bridge | Claude integration |
+
+## Key Documents
+
+| Document | Path | Purpose |
+|----------|------|---------|
+| Global AI Rules | `ai-governance/GLOBAL_AI_RULES.md` | Rules 12-16, role separation |
+| Handover Protocol | `ai-governance/HANDOVER_PROTOCOL.md` | Claude→Warp format |
+| Automation Template | `ai-governance/prompts/WARP_AUTOMATION_BUILD.md` | Build handoffs |
+| Memory Builder | `_scripts/warp_memory_builder.py` | Scan conversations |
+| Index Updater | `_scripts/index_updater.py` | Auto-update indexes |
+| Backtracker | `_scripts/backtrack_conversations.py` | Find incomplete tasks |
 
 ## Sub-Indexes (Load When Needed)
 
 | Index | Path | Use When |
 |-------|------|----------|
 | Projects | `.warp/indexes/PROJECT_INDEX.md` | Finding a project |
-| Services | `.warp/indexes/SERVICE_INDEX.md` | API/endpoint details |
-| Documents | `.warp/indexes/DOCUMENT_INDEX.md` | Finding docs/configs |
-| Workflows | `.warp/indexes/WORKFLOW_INDEX.md` | n8n workflow lookup |
+| Rules | `.warp/rules/00_RULE_INDEX.md` | Finding a rule |
 
 ## GitHub
 

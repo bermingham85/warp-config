@@ -21,7 +21,15 @@ This tells you HOW to load rules on-demand.
 C:\Users\bermi\.warp\STATUS_SNAPSHOT.md
 ```
 
-### 3. Verify Services Running
+### 4. Check Index Health
+```powershell
+# Check if indexes are stale (>7 days)
+$lastUpdate = Get-Content "C:\Users\bermi\.warp\indexes\.last_update" | ConvertFrom-Json
+$daysSince = (Get-Date) - [DateTime]::Parse($lastUpdate.timestamp) | Select-Object -ExpandProperty Days
+if ($daysSince -gt 7) { Write-Warning "INDEXES STALE ($daysSince days). Run: python C:\Users\bermi\Projects\_scripts\index_updater.py" }
+```
+
+### 5. Verify Services Running
 ```powershell
 # Memory Service (port 8765)
 Test-NetConnection -ComputerName localhost -Port 8765 -WarningAction SilentlyContinue
