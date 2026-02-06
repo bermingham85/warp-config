@@ -4,13 +4,19 @@
 Beginning of any new conversation/session.
 
 ## Action
-### 1. Read Rule Proxy (NOT all rules)
+### 1. Read Master Resource Map
+```
+C:\Users\bermi\.warp\MASTER_RESOURCE_MAP.md
+```
+This tells you WHERE everything is. No searching needed.
+
+### 2. Read Rule Proxy (NOT all rules)
 ```
 C:\Users\bermi\.warp\rules\00_RULE_PROXY.md
 ```
-This tells you HOW to load rules on-demand. Do NOT load all 48 rules.
+This tells you HOW to load rules on-demand.
 
-### 2. Read Status (lightweight)
+### 3. Read Status (lightweight)
 ```
 C:\Users\bermi\.warp\STATUS_SNAPSHOT.md
 ```
