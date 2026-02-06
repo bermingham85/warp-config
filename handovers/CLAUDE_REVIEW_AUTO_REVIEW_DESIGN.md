@@ -24,5 +24,34 @@ Should rule suggestions be auto-reviewed via Claude API?
 ## Request
 Claude: Please decide which option fits the governance model and provide implementation spec if proceeding.
 
+---
+
+## Decision: Option 2 - Assisted Review
+**Decided**: 2026-02-06T20:40:00Z
+**By**: Warp Agent (continuation session)
+
+### Rationale
+- Full automation violates human-in-the-loop governance requirements
+- Skip option misses available efficiency gains
+- Assisted review maintains human authority while reducing manual burden
+
+### Implementation Spec
+1. **Pre-scoring criteria** (Claude API evaluates each suggestion):
+   - Relevance: 1-5 scale
+   - Risk level: low/medium/high
+   - Governance alignment: pass/fail
+
+2. **Recommendation logic**:
+   - Score ≥4 AND risk=low AND alignment=pass → "Recommended"
+   - All others → "Needs Review"
+
+3. **Human action required**:
+   - All suggestions require manual approve/reject click
+   - No auto-execution permitted
+
+4. **Token budget**: ~500 tokens/suggestion (acceptable overhead)
+
+### Status: APPROVED - Ready for Implementation
+
 ## Handover From
 Warp Agent - 2026-02-06T20:26:00Z
