@@ -21,18 +21,21 @@ Quick reference. Each rule does ONE thing.
 | GITHUB_SOURCE_OF_TRUTH | Checking project | Check GitHub first |
 | SYNC_LOCAL_WITH_GITHUB | Starting work | Pull before changes |
 
-## Safety
-|| Rule | Trigger | One-Line Summary |
-||------|---------|------------------|
-|| CODE_REVIEW_BEFORE_EXECUTION | Code created/modified | Review as senior dev before running |
-|| CHECK_BEFORE_CLAIMING_INABILITY | About to say "I cannot" | Search existing resources first |
+## Safety & Security
+| Rule | Trigger | One-Line Summary |
+|------|---------|------------------|
+| CODE_REVIEW_BEFORE_EXECUTION | Code created/modified | Review as senior dev before running |
+| CHECK_BEFORE_CLAIMING_INABILITY | About to say "I cannot" | Search existing resources first |
 | CREDENTIAL_HANDLING | Secrets involved | Never echo |
+| NEVER_COMMIT_SECRETS | Git commit/push | No API keys/passwords in version control |
+| NEVER_LOG_SECRETS | Any output/log | No secrets to console/logs |
+| NO_AUTONOMOUS_EXECUTION | AI considers action | Must have user trigger first |
 | RISK_TIERING | Any change | Match scrutiny to risk |
 | BEFORE_DESTRUCTIVE | Delete/overwrite | Backup first |
 | RETRY_LIMITS | Action fails | Max 3 same, 5 total |
 | ERROR_HANDLING_PROCESS | Error occurs | Stop, assess, log, route, fix |
 | ROLLBACK_REFERENCE | Need to undo | Commands for git/n8n/db |
-| TESTING_REQUIREMENTS | Code written | Tests for prod/money |
+| AUTO_ROLLBACK_SCRIPT | DB/config change | Generate rollback before applying |
 
 ## Organization
 | Rule | Trigger | One-Line Summary |
@@ -44,6 +47,17 @@ Quick reference. Each rule does ONE thing.
 | CONSULT_CLAUDE_BEFORE_DELETE | About to delete/archive | Get Claude review first |
 | NEVER_DELETE | About to delete | Check dependencies first |
 | MONTHLY_REVIEW | First of month | Flag stale repos |
+
+## Efficiency
+| Rule | Trigger | One-Line Summary |
+|------|---------|------------------|
+| SERVICES_BEFORE_TOKENS | Any task | Route to tools/services before AI processing |
+
+## Testing
+| Rule | Trigger | One-Line Summary |
+|------|---------|------------------|
+| TESTING_REQUIREMENTS | Code written | Tests for prod/money |
+| REQUIRE_INTEGRATION_TESTS | Multi-system change | Integration test before complete |
 
 ## Logging
 | Rule | Trigger | One-Line Summary |
