@@ -1,7 +1,7 @@
 # RULE INDEX
 
-**Auto-updated: 2026-02-06 18:40**
-**Total rules: 54**
+**Auto-updated: 2026-02-10 06:00**
+**Total rules: 56**
 
 ## All Rules
 
@@ -43,7 +43,9 @@
 - `INDEX_ENTRY_CREATION`
 - `LOG_SIGNIFICANT_ACTIONS`
 - `MEMORY_LOGGING`
+- `MEMORY_PERSISTENCE`
 - `MONTHLY_REVIEW`
+- `N8N_ACCESS_PROTOCOL`
 - `NEVER_DELETE`
 - `PR_EVIDENCE_FORMAT`
 - `RETRY_LIMITS`

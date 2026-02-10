@@ -1,6 +1,6 @@
 # PROJECT INDEX
 
-**Auto-updated: 2026-02-06 18:40**
+**Auto-updated: 2026-02-10 06:00**
 **All projects at `C:\Users\bermi\Projects`**
 
 ## Infrastructure & Config
@@ -102,6 +102,7 @@
 | autonomous-system | Check | Active |
 | context-api | Check | Check |
 | control-tower | Control Tower - Quick Start Gu | Check |
+| controlboard | Check | Active |
 | fal-ai-docs-scraper | fal.ai Documentation Scraper | Active |
 | hybrid-extracted | Check | Check |
 | novel-production-factory | Novel Production Factory | Active |
