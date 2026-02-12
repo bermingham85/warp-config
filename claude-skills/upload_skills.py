@@ -12,7 +12,7 @@ Requirements:
     pip install anthropic
     
 Environment:
-    ANTHROPIC_API_KEY must be set (loads from C:\Users\bermi\.env)
+    ANTHROPIC_API_KEY must be set (loads from master .env file)
 """
 
 import os
@@ -87,7 +87,7 @@ def main():
     
     if not os.environ.get("ANTHROPIC_API_KEY"):
         print("❌ ANTHROPIC_API_KEY not set")
-        print("   Add it to C:\\Users\\bermi\\.env")
+        print("   Add it to your master .env file")
         sys.exit(1)
     
     # Get skill directories

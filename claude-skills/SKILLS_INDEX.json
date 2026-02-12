@@ -1,0 +1,36 @@
+{
+  "uploaded": [
+    {
+      "name": "auto-document-save",
+      "id": "skill_01HK3sfLqztUdBnw4gaY27Wi",
+      "version": "1770873062488739"
+    },
+    {
+      "name": "character-database-manager",
+      "id": "skill_01MEPi8QnAKGtgBrxLNUe21H",
+      "version": "1770873065474236"
+    },
+    {
+      "name": "media-toolkit-production",
+      "id": "skill_012GnGoFV4hDHPFuPfkXVh4G",
+      "version": "1770873067431572"
+    },
+    {
+      "name": "n8n-workflow-manager",
+      "id": "skill_01AANNZYr2sra3US6mnm2SeS",
+      "version": "1770873072495849"
+    },
+    {
+      "name": "transaction-categorization",
+      "id": "skill_01Wejc735Qxypz5dniWL4U2t",
+      "version": "1770873080567155"
+    },
+    {
+      "name": "world-building-auto-detail",
+      "id": "skill_01EiZ4VhCfS8f6GiTYtnVHQw",
+      "version": "1770873082544506"
+    }
+  ],
+  "beta_version": "skills-2025-10-02",
+  "count": 6
+}
