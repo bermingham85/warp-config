@@ -1,48 +1,146 @@
 {
-  "uploaded": [
+  "updated": "2026-02-12",
+  "total_skills": 28,
+  "skills": [
     {
-      "name": "auto-document-save",
-      "id": "skill_01HK3sfLqztUdBnw4gaY27Wi",
-      "display_title": "Auto Document Save"
+      "id": "skill_01L1xAG43Hx7ip2tEzEGLWGZ",
+      "name": "Suggest Rule",
+      "status": "active"
     },
     {
-      "name": "character-database-manager",
-      "id": "skill_01MEPi8QnAKGtgBrxLNUe21H",
-      "display_title": "Character Database Manager"
+      "id": "skill_019NYHP56GWa4eevS52cUNJ9",
+      "name": "Memory Logging",
+      "status": "active"
     },
     {
-      "name": "complete-to-production",
-      "id": "skill_01BQ9sZXiNuxPTaeXA9jy74F",
-      "display_title": "Complete To Production"
+      "id": "skill_01YRXR66rYisMijD14WPdxnu",
+      "name": "Artifacts Push",
+      "status": "active"
     },
     {
-      "name": "media-toolkit-production",
-      "id": "skill_012GnGoFV4hDHPFuPfkXVh4G",
-      "display_title": "Media Toolkit Production"
+      "id": "skill_018mDgUnDitz9ULLUqLdE5Tb",
+      "name": "Document Filing",
+      "status": "active"
     },
     {
-      "name": "n8n-workflow-manager",
-      "id": "skill_01AANNZYr2sra3US6mnm2SeS",
-      "display_title": "N8N Workflow Manager"
+      "id": "skill_013MCwZ4YqiZ85zmd15eBymk",
+      "name": "Consult Before Delete",
+      "status": "active"
     },
     {
-      "name": "prompt-library-manager",
+      "id": "skill_01HK9fFWQN345W34D9vHiCJ1",
+      "name": "Warp Handoff Format",
+      "status": "active"
+    },
+    {
+      "id": "skill_01MviXuMirh7XLRydyxLfaSD",
+      "name": "Credential Handling",
+      "status": "active"
+    },
+    {
+      "id": "skill_01PkiWM8eLddPL9sLy8TZQ1E",
+      "name": "Risk Tiering",
+      "status": "active"
+    },
+    {
+      "id": "skill_01BXGhLXaLJtE682TZyDAZhx",
+      "name": "Handle Interruptions",
+      "status": "active"
+    },
+    {
+      "id": "skill_01XMd6UVEdNd5jEZnZwDwqkW",
+      "name": "Error Handling Process",
+      "status": "active"
+    },
+    {
+      "id": "skill_01CS6DSjkVAqJKuuZVwhKAdR",
+      "name": "Session Handoff",
+      "status": "active"
+    },
+    {
+      "id": "skill_01P3wJbTFMTTPUaNewWRpB6e",
+      "name": "Startup Load Context",
+      "status": "active"
+    },
+    {
+      "id": "skill_017bSAHhSpdJLkyhxr6Zgfbz",
+      "name": "Task Router",
+      "status": "active"
+    },
+    {
+      "id": "skill_01Kga4r194imqQ5DLanSzGQs",
+      "name": "Github Source Of Truth",
+      "status": "active"
+    },
+    {
+      "id": "skill_01E8AEyixfQEyim3uZP5ecu6",
+      "name": "Memory Persistence",
+      "status": "active"
+    },
+    {
+      "id": "skill_01Q5NhUCyCGTV6uSjpEQB6oK",
+      "name": "Services Before Tokens",
+      "status": "active"
+    },
+    {
+      "id": "skill_01DYdc12vfYBKi57ZXAkZirR",
+      "name": "Mcp First",
+      "status": "active"
+    },
+    {
+      "id": "skill_01Afvwe5q9BJxAT6eri5hZYY",
+      "name": "Skill Assessment On Completion",
+      "status": "active"
+    },
+    {
+      "id": "skill_01VcdvBkCKG9rKA9HtCBceRe",
+      "name": "Self Learning",
+      "status": "active"
+    },
+    {
+      "id": "skill_01DXpbeN8SiHNXDQAvyeSwBA",
+      "name": "Context Token Tracker",
+      "status": "active"
+    },
+    {
       "id": "skill_01EZkTiLdmbuMWRMXTRbT4yD",
-      "display_title": "Prompt Library Manager"
+      "name": "Prompt Library Manager",
+      "status": "active"
     },
     {
-      "name": "transaction-categorization",
-      "id": "skill_01Wejc735Qxypz5dniWL4U2t",
-      "display_title": "Transaction Categorization"
+      "id": "skill_01BQ9sZXiNuxPTaeXA9jy74F",
+      "name": "Complete To Production",
+      "status": "active"
     },
     {
-      "name": "world-building-auto-detail",
       "id": "skill_01EiZ4VhCfS8f6GiTYtnVHQw",
-      "display_title": "World Building Auto Detail"
+      "name": "World Building Auto Detail",
+      "status": "active"
+    },
+    {
+      "id": "skill_01Wejc735Qxypz5dniWL4U2t",
+      "name": "Transaction Categorization",
+      "status": "active"
+    },
+    {
+      "id": "skill_01AANNZYr2sra3US6mnm2SeS",
+      "name": "N8N Workflow Manager",
+      "status": "active"
+    },
+    {
+      "id": "skill_012GnGoFV4hDHPFuPfkXVh4G",
+      "name": "Media Toolkit Production",
+      "status": "active"
+    },
+    {
+      "id": "skill_01MEPi8QnAKGtgBrxLNUe21H",
+      "name": "Character Database Manager",
+      "status": "active"
+    },
+    {
+      "id": "skill_01HK3sfLqztUdBnw4gaY27Wi",
+      "name": "Auto Document Save",
+      "status": "active"
     }
-  ],
-  "beta_version": "skills-2025-10-02",
-  "count": 8,
-  "last_verified": "2026-02-12T17:35:00Z",
-  "status": "ALL_LIVE_IN_CLAUDE"
+  ]
 }
