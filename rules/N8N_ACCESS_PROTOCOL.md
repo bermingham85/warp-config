@@ -7,9 +7,11 @@
 - ❌ curl/Invoke-RestMethod to API endpoints - WILL FAIL
 
 **CORRECT approaches (in order of preference)**:
-1. ✅ **n8n CLI tool**: `n8n health`, `n8n test`, `n8n trigger <webhook>`
+1. ✅ **wn8n CLI tool**: `wn8n health`, `wn8n test`, `wn8n trigger <webhook>`
 2. ✅ **Webhooks** at `http://localhost:5678/webhook/...`
 3. ✅ **MCP servers** if n8n-mcp is configured
+
+**NOTE:** Command is `wn8n` (not `n8n`) to avoid conflict with global n8n npm package.
 
 ## Available Webhooks (localhost:5678)
 | Endpoint | Purpose |
@@ -22,24 +24,24 @@
 | `/webhook/musetalk` | Video lip sync |
 | `/webhook/fal-video-lipsync` | FAL video + audio sync |
 
-## n8n CLI Tool (PREFERRED)
-Installed at: `C:\Users\bermi\.warp\bin\n8n.ps1`
+## wn8n CLI Tool (PREFERRED)
+Installed at: `C:\Users\bermi\.warp\bin\wn8n.ps1`
 
 ```powershell
 # Check n8n health
-n8n health
+wn8n health
 
 # Test all webhooks
-n8n test
+wn8n test
 
 # Trigger a specific webhook
-n8n trigger /webhook/transaction/categorize
+wn8n trigger /webhook/transaction/categorize
 
 # List available workflows
-n8n list
+wn8n list
 ```
 
-**ALWAYS use `n8n test` before attempting webhook calls.**
+**ALWAYS use `wn8n test` before attempting webhook calls.**
 
 ## Checking Credentials
 Credentials can't be listed via API. Instead:
