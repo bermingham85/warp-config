@@ -1,11 +1,48 @@
 {
   "uploaded": [
     {
+      "name": "auto-document-save",
+      "id": "skill_01HK3sfLqztUdBnw4gaY27Wi",
+      "display_title": "Auto Document Save"
+    },
+    {
+      "name": "character-database-manager",
+      "id": "skill_01MEPi8QnAKGtgBrxLNUe21H",
+      "display_title": "Character Database Manager"
+    },
+    {
       "name": "complete-to-production",
       "id": "skill_01BQ9sZXiNuxPTaeXA9jy74F",
-      "version": "1770873674562532"
+      "display_title": "Complete To Production"
+    },
+    {
+      "name": "media-toolkit-production",
+      "id": "skill_012GnGoFV4hDHPFuPfkXVh4G",
+      "display_title": "Media Toolkit Production"
+    },
+    {
+      "name": "n8n-workflow-manager",
+      "id": "skill_01AANNZYr2sra3US6mnm2SeS",
+      "display_title": "N8N Workflow Manager"
+    },
+    {
+      "name": "prompt-library-manager",
+      "id": "skill_01EZkTiLdmbuMWRMXTRbT4yD",
+      "display_title": "Prompt Library Manager"
+    },
+    {
+      "name": "transaction-categorization",
+      "id": "skill_01Wejc735Qxypz5dniWL4U2t",
+      "display_title": "Transaction Categorization"
+    },
+    {
+      "name": "world-building-auto-detail",
+      "id": "skill_01EiZ4VhCfS8f6GiTYtnVHQw",
+      "display_title": "World Building Auto Detail"
     }
   ],
   "beta_version": "skills-2025-10-02",
-  "count": 1
+  "count": 8,
+  "last_verified": "2026-02-12T17:35:00Z",
+  "status": "ALL_LIVE_IN_CLAUDE"
 }
