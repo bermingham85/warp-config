@@ -1,0 +1,6 @@
+name: check-tickets
+command: Import-Module C:\Users\bermi\Projects\SYSTEM_DOCS\ticket-system\TicketHelper.psm1; Get-TicketsForWarp
+description: Check all pending tickets for Warp
+tags:
+  - tickets
+  - orchestrator
