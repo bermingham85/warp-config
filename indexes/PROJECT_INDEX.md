@@ -1,6 +1,6 @@
 # PROJECT INDEX
 
-**Auto-updated: 2026-02-10 06:00**
+**Auto-updated: 2026-02-12 06:00**
 **All projects at `C:\Users\bermi\Projects`**
 
 ## Infrastructure & Config
@@ -96,7 +96,7 @@
 | PROJECT_KNOWLEDGE_SYSTEM | Check | Check |
 | TASK_OPERATOR | Check | Check |
 | _archive | Check | Check |
-| _artifacts | Check | Check |
+| _artifacts | Check | Active |
 | asset-vault | Asset Vault | Active |
 | autonomous-empire | AUTONOMOUS EMPIRE | Active |
 | autonomous-system | Check | Active |
